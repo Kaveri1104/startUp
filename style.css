@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.7;
+	background-color: rgb(0,0,0);
+}
+
+ul li{
+	list-style: none;
+}
+
+h1,h2,h3{
+	padding: 1rem;
+}
+p{
+	padding: 1rem;
+}
+
+a{
+	padding: 0.5rem 2.5rem;
+	text-decoration: none;
+	margin-left: 0.5rem;
+}
+
+/*####### Utility classes ###########*/
+
+.lg-heading{
+	font-weight: 700;
+}
+
+.md-heading{
+	font-weight: 400;
+}
+
+.text-black{
+	color: #000;
+}
+
+.text-light{
+	color:#fff;
+}
+.text-orange{
+	color: #FCAF02;
+
+}
+
+.btn{
+	background-color:#FCAF02;
+	border-radius: 2rem; 
+}
+
+/* ##### Navbar styling ############ */
+.navbar{
+	background-color: #FCAF02;
+
+}
+
+.logo{
+	float:left;
+	padding: 0.7rem;
+}
+
+.nav-items{
+	float: right;
+}
+
+.navbar::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav-item{
+	display: inline-block;
+	padding: 1rem;
+}
+
+.header{
+	position:sticky;
+	top:0;
+}
+/* ####### container class ######## */
+.container{
+	margin: 5%;
+}
+
+
+/* ####### section styling ###### */
+
+.intro{
+	height: 350px;
+	margin-bottom: 2rem;
+}
+.company{
+	float: left;
+	width: 50%
+
+}
+.profile{
+	float: right;
+	width:50%;
+	height: 100%;
+}
+
+.profile img{
+	height: 100%;
+	width:100%;
+}
+.intro::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* ###### contact us section styling ###### */
+.contact{
+	margin-bottom: 2rem;
+}
+
+.form{
+	padding: 1rem;
+}
+
+.input-field{
+	padding:  1rem;
+	border: 1px solid #FCAF02;
+	border-radius: 2rem;
+	margin-bottom: 2rem; 
+}
+
+
+.ci_1{
+	display: inline-block;
+	width: 40%;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.custom-input :: after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+input{
+	background-color: #000;
+}
+.submit{
+	position: relative;
+}
+.btn-primary{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+
+/* ####### table styling ###### */
+.table{
+	margin: 3rem 1rem;
+}
+table{
+	width: 100%;
+	border: 2px solid #FCAF02;
+	border-collapse: collapse;
+	 border-spacing: 30px;
+
+}
+
+th{
+	border: 2px solid #FCAF02;
+	border-collapse: collapse;
+}
+td{
+	border-right: 2px solid #FCAF02;
+}
+
+.colname{
+	text-align: center;
+}
+.table-row{
+	text-align: center;
+	color: #FCAF02;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+.table-footer{
+	background-color: #FCAF02;
+	color: black;
+	text-align: center;
+}
